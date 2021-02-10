@@ -9,3 +9,8 @@
 @import "custom/_megabar-disable.css";
 
 @import 'sslcolor.css';
+
+#tabbrowser-tabs, #tabbrowser-tabs arrowscrollbox { min-height: 0 !important; }
+#tabbrowser-tabs tab { height: var(--tab-min-height); }
+#tabbrowser-tabs tab:first-of-type:last-of-type { display: none !important; }
+#tabs-newtab-button { visibility: collapse !important; }
